@@ -28,7 +28,9 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.city{
+    color: #fff;
+}
 .search input{
     border: 0;
     outline: 0;
