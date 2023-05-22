@@ -163,6 +163,10 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
 #tex-descrip-pais-flex{
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    height: 30rem;
+    border-radius: 5% 5% 5% 5%;
 }
 #tex-descrip-pais-flex p{
     font-family: 'Wix Madefor Display', sans-serif;
@@ -172,18 +176,19 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
     justify-content: space-around;
     font-size: 1.3rem;
 }
-.boton{
+.card_cta{
+	margin-left: 1em;
 	background-color: #0b4f6c;
 	color: #D5D8DC;
 	text-decoration: none;
-	padding: 1rem;
-    width: 200px;
+	padding: 1em 2em;
+	width: 40%;
 	text-align: center;
 	margin: 10px;
 	border-radius: 15px;
 	transition: background-color 0.5s ease-out;
-    font-size: 1.3rem;
-    border: 0;
+    font-size: 120%;
+    display: inline;
 	font-family: 'Wix Madefor Display', sans-serif;
 }
 .boton:hover {
