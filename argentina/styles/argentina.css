@@ -18,8 +18,8 @@ body{
 
 h1{
     font-size: 8rem;
-    font-family: "Rokkitt";
-    color: black;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #03112f;
     text-align: center;
     padding: 5rem;
     margin: 5rem auto;
@@ -27,19 +27,19 @@ h1{
    
 /* h2{
     color: white;
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: normal;
     padding: 3rem;
 } */
 p{
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     color:#fff;
     font-weight: normal;
 }
 a{
     display: flex;
     color:white;
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 700;
     transition: color 0.5s ease-out;
     justify-content: flex-start;

@@ -17,7 +17,7 @@ body{
 
 h1{
     font-size: 8rem;
-    font-family: "Rokkitt";
+    font-family: 'Wix Madefor Display', sans-serif;
     color:rgba(38,53,60, 0.75);
     text-align: center;
     padding: 5rem;
@@ -26,23 +26,23 @@ h1{
    
 h2{
     color: rgb(20, 20, 20);
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: normal;
 }
 h3 {
     color: white;
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: normal;
 }
 p{
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     color:#fff;
     font-weight: normal;
 }
 a{ 
     display: flex;
     color:white;
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 700;
     transition: color 0.5s ease-out;
     justify-content: flex-start;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Wix+Madefor+Display:wght@400;500;600&display=swap');
 
 *{
     box-sizing: border-box;
@@ -6,6 +6,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Body */
@@ -15,7 +16,7 @@ body{
 
 h1{
     font-size: 8rem;
-    font-family: "Rokkitt";
+    font-family: 'Wix Madefor Display', sans-serif;
     color: #fff;
     text-align: center;
     padding: 10rem;
@@ -23,8 +24,8 @@ h1{
    
 
 h2{
-    color: white;
-    font-family: "Roboto";
+    color:#0b4f6c;
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: normal;
     text-align: center;
 
@@ -42,14 +43,14 @@ h2{
     translateY(0);opacity:1}
 }
 p{
-    font-family: "Roboto";
-    color:#fff;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color:#ffffff;
     font-weight: normal;
 }
 a{
     display: flex;
     color:white;
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 700;
     transition: color 0.5s ease-out;
     justify-content: flex-start;
@@ -153,7 +154,7 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
     padding-top:1.5rem;
     justify-content: center;
     list-style: none;
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-size: 1rem;
 }
 #li_agencia{
@@ -164,7 +165,7 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
     justify-content: center;
 }
 #tex-descrip-pais-flex p{
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     padding-top: 3rem;
     padding-left: 2rem;
     align-items: center;
@@ -183,7 +184,7 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
 	transition: background-color 0.5s ease-out;
     font-size: 1.3rem;
     border: 0;
-	font-family: 'Roboto';
+	font-family: 'Wix Madefor Display', sans-serif;
 }
 .boton:hover {
 	background-color:#23b5d3;

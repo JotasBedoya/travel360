@@ -1,5 +1,9 @@
 /* Cards paises section */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Wix+Madefor+Display:wght@400;500;600&display=swap');
 
+*{
+    font-family: 'Wix Madefor Display', sans-serif;
+}
 .titulo_ciudades{
 	font-size: 2rem;
     text-align: center;
@@ -58,14 +62,17 @@
 }
 
 .title_card{
+    color: #FFF;
     margin: 0;
     font-size: 130%;
+    font-family: 'Wix Madefor Display', sans-serif;
 }
 
 .text_card {
     font-size: 115%;
     padding: 0.5rem;
     text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
 }
 
 /* botones cards*/
@@ -83,7 +90,7 @@
 	transition: background-color 0.5s ease-out;
     font-size: 120%;
     display: inline;
-	
+	font-family: 'Wix Madefor Display', sans-serif;
 }
 
 .card_cta:hover{

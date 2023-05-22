@@ -17,22 +17,22 @@ body{
 
 h1{
     font-size: 8rem;
-    font-family: "Rokkitt";
-    color: #000;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #000000;
     text-align: center;
     padding: 5rem;
     padding-bottom: 2rem;
     margin: 5rem auto;
 }
 p{
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     color:#fff;
     font-weight: normal;
 }
 a{ 
     display: flex;
     color:white;
-    font-family: "Roboto";
+    font-family: 'Wix Madefor Display', sans-serif;
     font-weight: 700;
     transition: color 0.5s ease-out;
     justify-content: flex-start;
@@ -129,6 +129,7 @@ nav{
 }
 nav a {
     text-decoration: none;
+    color: #000000;
 }
 
 #copyright_section{
