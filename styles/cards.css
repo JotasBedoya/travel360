@@ -141,3 +141,10 @@
 #img3:checked ~ .m3{
     margin-left: -200%;
 }
+
+@media screen and (max-width:760px) {
+    .card_cta{
+        margin-left: 2rem;
+    }
+
+}

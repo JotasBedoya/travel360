@@ -258,7 +258,7 @@ iframe{
     }
     #tex-descrip-pais-flex{
         width: 70%;
-        height: 220%;
+        height: 175%;
         padding-top: 3rem;
         padding-bottom: 20%;
 
@@ -266,5 +266,6 @@ iframe{
     #iframe{
         padding:0;
     }
+    .card_cta
 
 }
