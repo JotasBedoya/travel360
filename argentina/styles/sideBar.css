@@ -11,7 +11,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    height:900px;
+    height: 100%; /*vivi*/
     width: 260px;
     background-color: rgba(255,255,255, 0.5);
     background: #0b4f6c05;
@@ -31,12 +31,12 @@
 
 .sidebar #logo{
     padding-top: 10px;
-    height: 100px;
+    height: 20%;
     transition: all 0.5s ease;
 }
 .sidebar.close #logo{
     padding: 10px, 3px, 3px, 3px;
-    height: 50%;
+    height: 20%;
 }
 
 .sidebar .nav-links input{
@@ -187,19 +187,21 @@
 }
 .home-section .home-content i:hover{
     opacity: 1;
+    cursor: pointer; /*agregado*/
 }
 .bxs-chevrons-left {
     transition: transform 0.3s ease-in-out;
 }
 
 .bxs-chevrons-left.flipped {
-    transform: rotateZ(180deg); 
+    transform: rotateZ(180deg);
 }
 .home-section{
     position: relative;
-    margin-bottom: 200px;
-    height: 100vh;
+    /* margin-bottom: 200px; */
+    height: 100%; /*100vh*/
     left: 260px;
+    top: 0;
     width: calc(100% - 260px);
     transition: all 0.5 ease;
 }
@@ -217,9 +219,21 @@
 }
 
 /* NAV BAR END */
-@media screen and (max-width:360px){
-   
+
+
+
+@media (max-width: 590px) {
+    .sidebar.close{
+        width: 58px;
+    }
+
+    .sidebar .nav-links li i {
+        min-width: 50px;
+    }
+    
+    .home-section .home-content i{
+        margin-left: -15px;
+        font-size: 1rem;
+    }
     
 }
-
-

@@ -111,3 +111,51 @@
     font-size: 3rem;
     /* margin-top: -1px; */
 }
+
+@media screen and (max-width:760px) {
+
+    .titulo_clima {
+        padding-left: -15px;
+        font-size: 1.8rem;
+        margin-top: 150%;
+        color:#fff;
+        width: 90%;  
+    }
+    .search input{
+        height: 30px;
+        width: 50%;
+        padding: 5px 5px;
+        
+    }
+    .card_weather{
+        width: 80%;
+        margin-left: -1px;
+        padding: 20px 13.5px;
+    }
+    .search button{
+        padding: 3.5px;
+    }
+
+    .weather-icon{
+        width: 70px;
+    }
+    .weather h1{
+        font-size: 2rem;
+    }
+    .col img{
+        width: 20px;
+    }
+    .humidity, .wind{
+        font-size: 14px;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .details{
+        padding: 0 10px;
+    }
+
+}
+    
+
+

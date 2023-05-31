@@ -115,13 +115,16 @@ section form fieldset input:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: -.5rem;
+
     }
     form {
-        width: 350px;
+        width: 280px;
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-self: center;
+
     }
     fieldset {
         display: flex;

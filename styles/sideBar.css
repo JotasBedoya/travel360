@@ -217,8 +217,20 @@
 }
 
 /* NAV BAR END */
-@media screen and (max-width:360px){
-   
+@media (max-width: 590px) {
+    .sidebar.close{
+        width: 58px;
+        height: 100%;
+    }
+
+    .sidebar .nav-links li i {
+        min-width: 50px;
+    }
+    
+    .home-section .home-content i{
+        margin-left: -15px;
+        font-size: 1rem;
+    }
     
 }
 

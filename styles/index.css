@@ -221,7 +221,7 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
 
 #iframe{
     overflow: hidden;
-    padding:5rem;
+    padding:10%;
     padding-bottom: 5rem;
     padding-top: 40rem;
     position: relative;
@@ -247,3 +247,24 @@ iframe{
     padding: 1rem;
 }
 
+@media screen and (max-width:760px) {
+    #tex-descrip-pais-flex h2 {
+        padding-left: 1rem;
+        font-size: 2.5rem;
+        color: #ffffff;
+    }
+    #tex-descrip-pais-flex p{
+        font-size: 1rem;
+    }
+    #tex-descrip-pais-flex{
+        width: 70%;
+        height: 220%;
+        padding-top: 3rem;
+        padding-bottom: 20%;
+
+    }
+    #iframe{
+        padding:0;
+    }
+
+}

@@ -31,12 +31,12 @@
 
 .sidebar #logo{
     padding-top: 10px;
-    height: 100px;
+    height: 20%;
     transition: all 0.5s ease;
 }
 .sidebar.close #logo{
     padding: 10px, 3px, 3px, 3px;
-    height: 50%;
+    height: 20%;
 }
 
 .sidebar .nav-links input{
@@ -219,9 +219,21 @@
 }
 
 /* NAV BAR END */
-@media screen and (max-width:360px){
-   
+
+
+
+@media (max-width: 590px) {
+    .sidebar.close{
+        width: 58px;
+    }
+
+    .sidebar .nav-links li i {
+        min-width: 50px;
+    }
+    
+    .home-section .home-content i{
+        margin-left: -15px;
+        font-size: 1rem;
+    }
     
 }
-
-

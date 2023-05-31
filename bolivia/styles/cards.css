@@ -40,7 +40,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     /* box-shadow: 0 0 6px #0b4f6c; */
-    width: 40%;
+    width: 50%;
     height: 30%;
 }
 .article-destinos button{
@@ -189,12 +189,32 @@
 
 @media (max-width: 590px) {
     .card_cta {
-        padding: 0.4rem;
+        padding: 1rem;
         font-size: 0.8rem;
+        width: 50%;
 
     }
     .text_card{
+        font-size: 1rem;
+    }
+    .article-destinos article {
+        width: 80%;
+    }
+
+    
+}
+@media (max-width: 890px) {
+    .card_cta {
+        padding: 1rem;
         font-size: 0.8rem;
+        width: 50%;
+
+    }
+    .text_card{
+        font-size: 1rem;
+    }
+    .article-destinos article {
+        width: 80%;
     }
 
     
