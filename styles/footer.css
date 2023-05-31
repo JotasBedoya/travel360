@@ -38,7 +38,7 @@ nav{
 }
 
 @media screen and (max-width:720px) {
-    nav{
+    /* nav{
         padding-top: 100%;
-    }
+    } */
 }

@@ -117,7 +117,7 @@
     .titulo_clima {
         padding-left: -15px;
         font-size: 1.8rem;
-        margin-top: 150%;
+        margin-top: 200%;
         color:#fff;
         width: 90%;  
     }
@@ -125,6 +125,7 @@
         height: 30px;
         width: 50%;
         padding: 5px 5px;
+        font-size: 11px;
         
     }
     .card_weather{
@@ -155,6 +156,19 @@
         padding: 0 10px;
     }
 
+}
+
+@media screen and (max-width:792){
+    .titulo_clima{
+        margin-top: 145%;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .clima{
+        margin-top: 35%;
+    }
+    
 }
     
 

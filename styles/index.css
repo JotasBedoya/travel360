@@ -202,10 +202,10 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
     height: 35rem;
 }
 .datos-contacto{
-    width:40%;
+    width:100%;
     padding-top: 6rem;
     padding-left: 5rem;
-    height:50%;
+    height:60%;
 }
 .datos-contacto nav{
     padding: 0;
@@ -221,7 +221,7 @@ animation:tracking-in-expand-forward-top 0.4s linear both;
 
 #iframe{
     overflow: hidden;
-    padding:10%;
+    /* padding:10%; */
     padding-bottom: 5rem;
     padding-top: 40rem;
     position: relative;
@@ -258,14 +258,44 @@ iframe{
     }
     #tex-descrip-pais-flex{
         width: 70%;
-        height: 175%;
+        height: 220%;
         padding-top: 3rem;
         padding-bottom: 20%;
 
     }
     #iframe{
         padding:0;
+        width: 50%;
+        height: 50%;
     }
-    .card_cta
+    iframe{
+        z-index: 3;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        border-width: 0px;
+        margin: 0px;
+        left: 0px;
+        top: 0px;
+    }
+    .contacto{
+        display: flex;
+
+    }
+    .datos-contacto{
+        padding-left: 2rem;
+        
+    }
+    .info_contacto{
+        margin-left: 1.5rem;
+        
+    }
+    .contacto .datos-contacto .contacto_p{
+        font-size: 15px;
+        line-height: 1.5rem;
+        margin-left: -25px;
+        padding-left: 0;
+    }
 
 }
