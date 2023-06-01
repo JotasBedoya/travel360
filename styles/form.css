@@ -29,7 +29,7 @@ form fieldset {
 
 textarea {
     background-color: rgb(240, 231, 246);
-    margin: 5px;
+    /* margin: 5px; */
     border-radius: 8px;
     height: 70px;
 }
