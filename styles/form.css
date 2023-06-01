@@ -161,4 +161,7 @@ section form fieldset input:hover{
         text-align: center;
     }
 }
+@media screen and (367px <= width < 760px){
+    
+}
 

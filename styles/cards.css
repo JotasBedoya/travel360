@@ -126,7 +126,7 @@
     border: solid #0b4f6c 3px;
     cursor: pointe;
     transition: all 0.15s ease;
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 .dots label:hover {
@@ -148,3 +148,4 @@
     }
 
 }
+

@@ -1,10 +1,11 @@
-@media screen and (max-width:760px) {
+@media screen and (max-width:759px) {
+
     #articulos-destino-flex {
         flex-direction: column;
         display: inline-block;
         padding-left: 1rem;
         padding-right: 1rem;
-        width: 85%;
+        width: 90%;
         /*justify-content: flex-start;*/
     }
     .articulos {
@@ -27,6 +28,7 @@
         color: #000;
         margin-top: -20px;
     }
+    
     #logo_home {
         height: 50%;
         width: 50%;
@@ -57,7 +59,7 @@
         padding:0;
         width: 95%;
         height: 95%;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 52px;
         /* margin-bottom: 250px; */
     }
     p{
@@ -68,7 +70,93 @@
     }
 }
 
-@media screen and (max-width:699px) {
+@media screen and (759px <= width < 1200px) {
+    #articulos-destino-flex {
+            flex-direction: row;
+            display: inline-block;
+            padding-left: 13rem;
+            padding-right: 1rem;
+            justify-content: flex-start;
+        
+    }
+    .articulos {
+        display: flex;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 5%;
+        background-color: rgba(255, 255, 255, 0.5);
+        text-align: left;
+        margin-left: 5px;
+    }
+    .imagen {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        float: left;
+        margin-left: 1rem;
+        margin-bottom: 0rem;
+    }
+    .p-destinos {
+        color: #000;
+        margin-top: -20px;
+    }
+    #logo_home {
+        height: 80%;
+        width: 100%;
+        margin-left: -90px;
+        margin-bottom: 90px;
+        padding-left: 35%;
+    }
+    #secciones {
+        /*margin-right: -5rem;*/
+        background-size: contain;
+        flex-wrap: wrap;
+    }
+    #img-descrip-pais {
+        display: none;
+    }
+    #descrip-pais-flex {
+        padding: 10% 0 0 0;
+    }
+    #tex-descrip-pais-flex {
+        flex-direction: row;
+        justify-content: center;
+        padding-right: 2rem;
+    }
+    .contacto{
+        display: flex;
+        flex-direction:column;
+        padding-top: 20%;
+        
+    }
+    .datos-contacto{   
+        justify-content: center;
+        padding-bottom: 200px;
+
+    }
+    iframe {
+        padding-top: 20%;
+        overflow: visible;
+        padding: 0;
+        height: 10%;
+        z-index: 3;
+        height: 500%;
+        width: 500%;
+        padding: 0px;
+
+    }
+    p{
+        font-size: .5rem;
+    }
+
+    .contacto_p{
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:366px) {
     #articulos-destino-flex {
         flex-direction: column;
         display: inline-block;
