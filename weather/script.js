@@ -24,23 +24,28 @@ async function checkWeather(city) {
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
         document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
     
-        if(data.weather[0].main == "Clouds"){
-            weatherIcon.src = "./weather/images/clouds.png"
-        } 
-        else if(data.weather[0].main == "Clear"){
-            weatherIcon.src = "./weather/images/clear.png"
-        }
-        else if (data.weather[0].main == "Drizzle"){
-            weatherIcon.src = "./weather/images/drizzle.png"
-        }
-        else if (data.weather[0].main == "Rain"){
-            weatherIcon.src = "./weather/images/rain.png"
-        }
-        else if (data.weather[0].main == "Snow"){
-            weatherIcon.src = "./weather/images/snow.png"
-        }
-        else if (data.weather[0].main == "Mist"){
-            weatherIcon.src = "./weather/images/mist.png"
+        switch (data.weather[0].main) {
+            case "Clouds":
+                weatherIcon.src = "./weather/images/clouds.png";
+                break;
+            case "Clear":
+                weatherIcon.src = "./weather/images/clear.png";
+                break;
+            case "Drizzle":
+                weatherIcon.src = "./weather/images/drizzle.png";
+                break;
+            case "Rain":
+                weatherIcon.src = "./weather/images/rain.png";
+                break;
+            case "Snow":
+                weatherIcon.src = "./weather/images/snow.png";
+                break;
+            case "Mist":
+                weatherIcon.src = "./weather/images/mist.png";
+                break;
+            default:
+                // Handle any other cases or provide a default behavior
+                break;
         }
     
         document.querySelector(".weather").style.display = "block";
@@ -53,5 +58,8 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 })
+searchBox.addEventListener("keyup", (event) => {
+    event.key == "Enter" ? checkWeather (searchBox.value): null; // Ternary Operator
 
+})
 
